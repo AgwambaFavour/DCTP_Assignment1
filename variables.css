@@ -1,0 +1,16 @@
+/* Defining Variables */
+
+:root {
+    --container-width: 100%;
+    --flex: flex;
+    --gray-border: 1px solid #e3e3e3;
+    --bg-gray: gray;
+    --bg-gray-alt: rgb(49, 49, 49);
+    --bg-light-gray: rgb(167, 160, 160);
+  
+    /* Breakpoints for Devices */
+    --tablet-width: 730px;
+    --md-computer-width: 970px;
+    --lg-computer-width: 1170px;
+  }
+  

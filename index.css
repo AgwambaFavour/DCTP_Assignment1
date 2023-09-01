@@ -1,0 +1,74 @@
+/* Importing Defined Variables */
+@import "./variables.css";
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: var(--container-width);
+    display: var(--flex);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 auto; 
+    border: var(--gray-border) ; 
+}
+
+
+.table{
+    width: var(--container-width);
+}
+.heading{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    color: var(--bg-gray-alt);
+}
+
+
+.table-body{
+    background-color: var(--bg-light-gray);
+}
+th, td{
+    border: var(--gray-border);
+    text-align: center;
+}
+
+
+.table-heading{
+   background-color: var(--bg-gray);
+   font-size: 17px;
+}
+
+
+
+/* Responsive Code across Large Screen*/
+@media (min-width: 1200px) {
+    .container {
+      max-width: var(--lg-computer-width);
+
+    }
+}
+
+
+/* Responsive Code across medium Screen*/
+@media (max-width: 992px) {
+  .container {
+      max-width:var(--md-computer-width);
+    }
+}
+
+
+
+/* Responsive Code across phone to Tablet Screen*/
+@media (max-width: 768px){
+    .container{
+        max-width: var(--tablet-width);
+    }
+}
+
+
